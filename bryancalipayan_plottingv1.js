@@ -1,4 +1,4 @@
-
+<script>
 var map;
 var path_layer;
 <?php
@@ -360,3 +360,4 @@ path_layer = L.polyline(PATHID_CENTER, {"weight": 5,"opacity": 1, "color": ""})
 var multiPolygonOptions = {color:'red', weight:1};
 var multipolygon = L.multiPolygon(latlang_bg , multiPolygonOptions);
 multipolygon.addTo(map);
+</script>
